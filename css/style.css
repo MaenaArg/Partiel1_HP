@@ -216,6 +216,21 @@ footer p {
   align-items: center;
 }
 
+.label, .infos {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label p, .infos p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.infos p {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 425px) {
   header {
     width: 90%;
