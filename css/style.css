@@ -141,8 +141,15 @@ footer p {
   object-fit: cover;
 }
 .characters p {
+  margin-top: 10px;
+  font-size: 18px;
   text-align: center;
   color: var(--Gold, #b99049);
+  font-weight: bold;
+}
+
+.character {
+  text-align: center;
 }
 
 /* PAGE PERSO */
