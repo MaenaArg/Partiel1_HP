@@ -114,12 +114,17 @@ footer p {
   height: 140px;
   text-align: center;
 }
-.houses > div:hover {
+.houses > div :hover {
   background: #fff6e6;
 }
 .houses img {
   width: 121px;
   height: 136px;
+}
+
+.houses img:hover {
+  background: #fff6e6;
+  border-radius:50%;
 }
 
 .characters {
@@ -148,8 +153,24 @@ footer p {
   font-weight: bold;
 }
 
-.character {
+.character p{
   text-align: center;
+}
+.character.G img:hover {
+  border: 8px solid var(--red, #b71713);
+}
+
+.character.S img:hover {
+
+  border: 8px solid var(--green, #124b10);
+}
+
+.character.H img:hover {
+  border: 8px solid var(--yellow, #e1b50c);
+}
+
+.character.R img:hover {
+  border: 8px solid var(--blue, #078cb1);
 }
 
 /* PAGE PERSO */
